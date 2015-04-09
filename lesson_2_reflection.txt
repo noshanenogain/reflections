@@ -1,0 +1,5 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: git init creates a repository in the current directory without making a commit. Once the repo is created you can start making commits.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: Working directory includes all files, but you could add a subset of files to the staging area before you make a commit. It gives you more control on what to commit, and a better message than "Initial Commit"
