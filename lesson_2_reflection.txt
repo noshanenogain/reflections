@@ -2,4 +2,19 @@ Q: What happens when you initialize a repository? Why do you need to do it?
 A: git init creates a repository in the current directory without making a commit. Once the repo is created you can start making commits.
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
-A: Working directory includes all files, but you could add a subset of files to the staging area before you make a commit. It gives you more control on what to commit, and a better message than "Initial Commit"
+A: Working directory includes all files, but you could add a subset of files to the staging area before you make a commit. It gives you more control on what to commit, and a better message than "Initial Commit".
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: Because I can add as many or as few files into it as I need for each logical change.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Adding experimental features, or anything that isn't ready to be added the the main project. It allows different versions of the project that don't conflict.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: It helps  put them all in perspective. It shows where the branches interact and if I'm in a detached head state.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: Two branches become one. This joins changes together automatically unless conflicts arise. It represents the two branches coming back together.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: Pros it will automatically add changes to a new commit if they don't "interact" and will alert the user if there is a conflict. Cons are that some things don't get flagged that could interact such as functions.
